@@ -1,0 +1,699 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What Excel function would you use to sum values in range A1:A10?",
+      "type": "formula",
+      "category": "basic_formulas",
+      "difficulty": "basic",
+      "keywords": [
+        "SUM",
+        "formula",
+        "range"
+      ],
+      "target_roles": [
+        "finance",
+        "operations",
+        "data_analytics"
+      ],
+      "usage_count": 4,
+      "avg_score": 60.0,
+      "effectiveness_score": 0.30733333333333335,
+      "created_date": "2025-09-13T16:57:00.000000",
+      "performance_history": [
+        {
+          "score": 20,
+          "timestamp": "2025-09-13T17:43:19.402045",
+          "outcome": null
+        },
+        {
+          "score": 60,
+          "timestamp": "2025-09-13T22:05:31.907880",
+          "outcome": null
+        },
+        {
+          "score": 75,
+          "timestamp": "2025-09-13T22:12:19.140749",
+          "outcome": null
+        },
+        {
+          "score": 85,
+          "timestamp": "2025-09-13T22:18:29.511105",
+          "outcome": null
+        }
+      ],
+      "generated": false
+    },
+    {
+      "id": 2,
+      "question": "How would you remove duplicate values from a dataset in Excel?",
+      "type": "concept",
+      "category": "data_manipulation",
+      "difficulty": "intermediate",
+      "keywords": [
+        "remove duplicates",
+        "data",
+        "filter",
+        "unique"
+      ],
+      "target_roles": [
+        "data_analytics",
+        "operations"
+      ],
+      "usage_count": 0,
+      "avg_score": 0.0,
+      "effectiveness_score": 0.5,
+      "created_date": "2025-09-13T16:57:00.000000",
+      "performance_history": [],
+      "generated": false
+    },
+    {
+      "id": 3,
+      "question": "Explain the difference between VLOOKUP and INDEX-MATCH functions.",
+      "type": "concept",
+      "category": "lookup_functions",
+      "difficulty": "advanced",
+      "keywords": [
+        "VLOOKUP",
+        "INDEX",
+        "MATCH",
+        "lookup"
+      ],
+      "target_roles": [
+        "finance",
+        "data_analytics"
+      ],
+      "usage_count": 8,
+      "avg_score": 60.625,
+      "effectiveness_score": 0.32299999999999995,
+      "created_date": "2025-09-13T16:57:00.000000",
+      "performance_history": [
+        {
+          "score": 85,
+          "timestamp": "2025-09-13T17:37:05.435967",
+          "outcome": null
+        },
+        {
+          "score": 85,
+          "timestamp": "2025-09-13T17:37:14.347740",
+          "outcome": null
+        },
+        {
+          "score": 10,
+          "timestamp": "2025-09-13T17:45:24.116439",
+          "outcome": null
+        },
+        {
+          "score": 70,
+          "timestamp": "2025-09-13T22:07:10.032717",
+          "outcome": null
+        },
+        {
+          "score": 85,
+          "timestamp": "2025-09-13T22:17:52.249768",
+          "outcome": null
+        },
+        {
+          "score": 0,
+          "timestamp": "2025-09-13T22:24:50.967553",
+          "outcome": null
+        },
+        {
+          "score": 85,
+          "timestamp": "2025-09-13T22:25:23.334342",
+          "outcome": null
+        },
+        {
+          "score": 65,
+          "timestamp": "2025-09-14T17:12:50.942841",
+          "outcome": null
+        }
+      ],
+      "generated": false
+    },
+    {
+      "id": 4,
+      "question": "How would you create a pivot table to analyze sales data by region and product?",
+      "type": "concept",
+      "category": "data_analysis",
+      "difficulty": "intermediate",
+      "keywords": [
+        "pivot table",
+        "sales data",
+        "analysis",
+        "region"
+      ],
+      "target_roles": [
+        "finance",
+        "operations",
+        "data_analytics"
+      ],
+      "usage_count": 9,
+      "avg_score": 52.22222222222222,
+      "effectiveness_score": 0.4410370370370371,
+      "created_date": "2025-09-13T16:57:00.000000",
+      "performance_history": [
+        {
+          "score": 10,
+          "timestamp": "2025-09-13T17:20:54.676622",
+          "outcome": null
+        },
+        {
+          "score": 40,
+          "timestamp": "2025-09-13T17:22:23.950561",
+          "outcome": null
+        },
+        {
+          "score": 85,
+          "timestamp": "2025-09-13T17:23:10.188811",
+          "outcome": null
+        },
+        {
+          "score": 10,
+          "timestamp": "2025-09-13T17:28:49.763075",
+          "outcome": null
+        },
+        {
+          "score": 40,
+          "timestamp": "2025-09-13T22:06:29.040824",
+          "outcome": null
+        },
+        {
+          "score": 50,
+          "timestamp": "2025-09-13T22:06:40.295686",
+          "outcome": null
+        },
+        {
+          "score": 85,
+          "timestamp": "2025-09-13T22:17:12.717512",
+          "outcome": null
+        },
+        {
+          "score": 85,
+          "timestamp": "2025-09-13T22:24:25.470546",
+          "outcome": null
+        },
+        {
+          "score": 65,
+          "timestamp": "2025-09-14T17:12:31.086203",
+          "outcome": null
+        }
+      ],
+      "generated": false
+    },
+    {
+      "id": 5,
+      "question": "What's the difference between absolute and relative cell references? Give examples.",
+      "type": "concept",
+      "category": "basic_formulas",
+      "difficulty": "basic",
+      "keywords": [
+        "absolute",
+        "relative",
+        "cell reference",
+        "$"
+      ],
+      "target_roles": [
+        "finance",
+        "operations",
+        "data_analytics"
+      ],
+      "usage_count": 4,
+      "avg_score": 53.75,
+      "effectiveness_score": 0.4031666666666666,
+      "created_date": "2025-09-13T16:57:00.000000",
+      "performance_history": [
+        {
+          "score": 20,
+          "timestamp": "2025-09-13T17:50:11.876858",
+          "outcome": null
+        },
+        {
+          "score": 85,
+          "timestamp": "2025-09-13T17:51:26.216747",
+          "outcome": null
+        },
+        {
+          "score": 55,
+          "timestamp": "2025-09-13T22:07:46.773552",
+          "outcome": null
+        },
+        {
+          "score": 55,
+          "timestamp": "2025-09-13T22:07:57.815068",
+          "outcome": null
+        }
+      ],
+      "generated": false
+    },
+    {
+      "id": 6,
+      "question": "How would you use SUMIF to calculate total sales for a specific product?",
+      "type": "formula",
+      "category": "advanced_formulas",
+      "difficulty": "intermediate",
+      "keywords": [
+        "SUMIF",
+        "conditional",
+        "criteria",
+        "sales"
+      ],
+      "target_roles": [
+        "finance",
+        "operations"
+      ],
+      "usage_count": 8,
+      "avg_score": 41.25,
+      "effectiveness_score": 0.5813333333333334,
+      "created_date": "2025-09-13T16:57:00.000000",
+      "performance_history": [
+        {
+          "score": 10,
+          "timestamp": "2025-09-13T17:30:47.883685",
+          "outcome": null
+        },
+        {
+          "score": 10,
+          "timestamp": "2025-09-13T17:40:39.389690",
+          "outcome": null
+        },
+        {
+          "score": 10,
+          "timestamp": "2025-09-13T17:47:40.321922",
+          "outcome": null
+        },
+        {
+          "score": 70,
+          "timestamp": "2025-09-13T22:05:53.696469",
+          "outcome": null
+        },
+        {
+          "score": 85,
+          "timestamp": "2025-09-13T22:16:26.850389",
+          "outcome": null
+        },
+        {
+          "score": 85,
+          "timestamp": "2025-09-13T22:23:19.113048",
+          "outcome": null
+        },
+        {
+          "score": 40,
+          "timestamp": "2025-09-14T17:11:45.760201",
+          "outcome": null
+        },
+        {
+          "score": 20,
+          "timestamp": "2025-09-14T17:11:50.530330",
+          "outcome": null
+        }
+      ],
+      "generated": false
+    },
+    {
+      "id": 1833,
+      "question": "What function would you use to count non-empty cells in Excel?",
+      "type": "formula",
+      "category": "basic_formulas",
+      "difficulty": "basic",
+      "keywords": [
+        "what",
+        "function",
+        "would",
+        "you",
+        "use",
+        "to",
+        "count",
+        "non",
+        "empty",
+        "cells",
+        "in",
+        "excel"
+      ],
+      "generated": true,
+      "created_date": "2025-09-13T17:20:39.661697",
+      "target_roles": [
+        "finance"
+      ],
+      "usage_count": 14,
+      "avg_score": 71.42857142857143,
+      "effectiveness_score": 0.2530476190476191,
+      "performance_history": [
+        {
+          "score": 15,
+          "timestamp": "2025-09-13T17:23:27.805898",
+          "outcome": null
+        },
+        {
+          "score": 40,
+          "timestamp": "2025-09-13T17:23:44.062079",
+          "outcome": null
+        },
+        {
+          "score": 75,
+          "timestamp": "2025-09-13T17:24:32.461596",
+          "outcome": null
+        },
+        {
+          "score": 85,
+          "timestamp": "2025-09-13T17:40:23.578428",
+          "outcome": null
+        },
+        {
+          "score": 20,
+          "timestamp": "2025-09-13T18:00:39.785184",
+          "outcome": null
+        },
+        {
+          "score": 85,
+          "timestamp": "2025-09-13T22:05:15.006292",
+          "outcome": null
+        },
+        {
+          "score": 85,
+          "timestamp": "2025-09-13T22:15:07.080052",
+          "outcome": null
+        },
+        {
+          "score": 85,
+          "timestamp": "2025-09-13T22:15:40.872689",
+          "outcome": null
+        },
+        {
+          "score": 85,
+          "timestamp": "2025-09-13T22:21:29.900731",
+          "outcome": null
+        },
+        {
+          "score": 85,
+          "timestamp": "2025-09-13T22:22:09.670119",
+          "outcome": null
+        },
+        {
+          "score": 85,
+          "timestamp": "2025-09-13T22:25:45.442349",
+          "outcome": null
+        },
+        {
+          "score": 85,
+          "timestamp": "2025-09-14T17:11:16.741227",
+          "outcome": null
+        },
+        {
+          "score": 85,
+          "timestamp": "2025-09-14T17:11:26.957459",
+          "outcome": null
+        },
+        {
+          "score": 85,
+          "timestamp": "2025-09-14T17:13:01.499093",
+          "outcome": null
+        }
+      ]
+    },
+    {
+      "id": 1833,
+      "question": "What function would you use to count non-empty cells in Excel?",
+      "type": "formula",
+      "category": "basic_formulas",
+      "difficulty": "basic",
+      "keywords": [
+        "what",
+        "function",
+        "would",
+        "you",
+        "use",
+        "to",
+        "count",
+        "non",
+        "empty",
+        "cells",
+        "in",
+        "excel"
+      ],
+      "generated": true,
+      "created_date": "2025-09-13T22:12:02.961094",
+      "target_roles": [
+        "finance"
+      ],
+      "usage_count": 0,
+      "avg_score": 0.0,
+      "effectiveness_score": 0.5,
+      "performance_history": [],
+      "success_rate": 0.0
+    },
+    {
+      "id": 1833,
+      "question": "What function would you use to count non-empty cells in Excel?",
+      "type": "formula",
+      "category": "basic_formulas",
+      "difficulty": "basic",
+      "keywords": [
+        "what",
+        "function",
+        "would",
+        "you",
+        "use",
+        "to",
+        "count",
+        "non",
+        "empty",
+        "cells",
+        "in",
+        "excel"
+      ],
+      "generated": true,
+      "created_date": "2025-09-13T22:14:37.533915",
+      "target_roles": [
+        "finance"
+      ],
+      "usage_count": 0,
+      "avg_score": 0.0,
+      "effectiveness_score": 0.5,
+      "performance_history": [],
+      "success_rate": 0.0
+    },
+    {
+      "id": 1833,
+      "question": "What function would you use to count non-empty cells in Excel?",
+      "type": "formula",
+      "category": "basic_formulas",
+      "difficulty": "basic",
+      "keywords": [
+        "what",
+        "function",
+        "would",
+        "you",
+        "use",
+        "to",
+        "count",
+        "non",
+        "empty",
+        "cells",
+        "in",
+        "excel"
+      ],
+      "generated": true,
+      "created_date": "2025-09-13T22:14:37.539958",
+      "target_roles": [
+        "finance"
+      ],
+      "usage_count": 0,
+      "avg_score": 0.0,
+      "effectiveness_score": 0.5,
+      "performance_history": [],
+      "success_rate": 0.0
+    },
+    {
+      "id": 1833,
+      "question": "What function would you use to count non-empty cells in Excel?",
+      "type": "formula",
+      "category": "basic_formulas",
+      "difficulty": "basic",
+      "keywords": [
+        "what",
+        "function",
+        "would",
+        "you",
+        "use",
+        "to",
+        "count",
+        "non",
+        "empty",
+        "cells",
+        "in",
+        "excel"
+      ],
+      "generated": true,
+      "created_date": "2025-09-13T22:20:54.189214",
+      "target_roles": [
+        "finance"
+      ],
+      "usage_count": 0,
+      "avg_score": 0.0,
+      "effectiveness_score": 0.5,
+      "performance_history": [],
+      "success_rate": 0.0
+    },
+    {
+      "id": 1833,
+      "question": "What function would you use to count non-empty cells in Excel?",
+      "type": "formula",
+      "category": "basic_formulas",
+      "difficulty": "basic",
+      "keywords": [
+        "what",
+        "function",
+        "would",
+        "you",
+        "use",
+        "to",
+        "count",
+        "non",
+        "empty",
+        "cells",
+        "in",
+        "excel"
+      ],
+      "generated": true,
+      "created_date": "2025-09-13T22:20:54.197114",
+      "target_roles": [
+        "finance"
+      ],
+      "usage_count": 0,
+      "avg_score": 0.0,
+      "effectiveness_score": 0.5,
+      "performance_history": [],
+      "success_rate": 0.0
+    },
+    {
+      "id": 1833,
+      "question": "What function would you use to count non-empty cells in Excel?",
+      "type": "formula",
+      "category": "basic_formulas",
+      "difficulty": "basic",
+      "keywords": [
+        "what",
+        "function",
+        "would",
+        "you",
+        "use",
+        "to",
+        "count",
+        "non",
+        "empty",
+        "cells",
+        "in",
+        "excel"
+      ],
+      "generated": true,
+      "created_date": "2025-09-13T22:20:54.199123",
+      "target_roles": [
+        "finance"
+      ],
+      "usage_count": 0,
+      "avg_score": 0.0,
+      "effectiveness_score": 0.5,
+      "performance_history": [],
+      "success_rate": 0.0
+    },
+    {
+      "id": 1833,
+      "question": "What function would you use to count non-empty cells in Excel?",
+      "type": "formula",
+      "category": "basic_formulas",
+      "difficulty": "basic",
+      "keywords": [
+        "what",
+        "function",
+        "would",
+        "you",
+        "use",
+        "to",
+        "count",
+        "non",
+        "empty",
+        "cells",
+        "in",
+        "excel"
+      ],
+      "generated": true,
+      "created_date": "2025-09-14T17:11:07.434859",
+      "target_roles": [
+        "finance"
+      ],
+      "usage_count": 0,
+      "avg_score": 0.0,
+      "effectiveness_score": 0.5,
+      "performance_history": [],
+      "success_rate": 0.0
+    },
+    {
+      "id": 1833,
+      "question": "What function would you use to count non-empty cells in Excel?",
+      "type": "formula",
+      "category": "basic_formulas",
+      "difficulty": "basic",
+      "keywords": [
+        "what",
+        "function",
+        "would",
+        "you",
+        "use",
+        "to",
+        "count",
+        "non",
+        "empty",
+        "cells",
+        "in",
+        "excel"
+      ],
+      "generated": true,
+      "created_date": "2025-09-14T17:11:07.446759",
+      "target_roles": [
+        "finance"
+      ],
+      "usage_count": 0,
+      "avg_score": 0.0,
+      "effectiveness_score": 0.5,
+      "performance_history": [],
+      "success_rate": 0.0
+    },
+    {
+      "id": 1833,
+      "question": "What function would you use to count non-empty cells in Excel?",
+      "type": "formula",
+      "category": "basic_formulas",
+      "difficulty": "basic",
+      "keywords": [
+        "what",
+        "function",
+        "would",
+        "you",
+        "use",
+        "to",
+        "count",
+        "non",
+        "empty",
+        "cells",
+        "in",
+        "excel"
+      ],
+      "generated": true,
+      "created_date": "2025-09-14T17:11:07.454433",
+      "target_roles": [
+        "finance"
+      ],
+      "usage_count": 0,
+      "avg_score": 0.0,
+      "effectiveness_score": 0.5,
+      "performance_history": [],
+      "success_rate": 0.0
+    }
+  ],
+  "metadata": {
+    "total_interviews": 0,
+    "last_updated": "2025-09-14T17:13:01.499093",
+    "version": "1.0"
+  }
+}
