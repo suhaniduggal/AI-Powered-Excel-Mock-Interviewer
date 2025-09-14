@@ -11,21 +11,21 @@ from datetime import datetime
 # ------------------------------
 class AIAnswerReviewer:
     def __init__(self, api_key: str = None):
-        # ✅ FIX 1: Use a named key in secrets.toml instead of hardcoding
+        
         api_key = api_key or st.secrets["GEMINI_API_KEY"]
         genai.configure(api_key=api_key)
 
-        # ✅ FIX 2: Correct model initialization
+        
         self.model = genai.GenerativeModel(model_name="gemini-1.5-flash")
 
     def review_answer(self, question: Dict, response: str) -> Dict[str, Any]:
         """Main function to review and evaluate answers using AI"""
 
-        # ✅ don’t overwrite "response" variable
+        
         prompt = self._create_evaluation_prompt(question, response)
 
         try:
-            # ✅ FIX 3: Gemini expects list input
+            
             api_response = self.model.generate_content([prompt])
             ai_response = api_response.text
             return self._parse_ai_evaluation(ai_response)
@@ -87,7 +87,7 @@ Return ONLY the JSON, no other text.
         """Parse JSON response from Gemini"""
 
         try:
-            # ✅ safer regex for JSON
+            
             json_match = re.search(r"\{[\s\S]*\}", ai_response)
             if json_match:
                 evaluation_data = json.loads(json_match.group())
@@ -330,3 +330,4 @@ class InterviewReportGenerator:
             return ["Do not hire", "Recommend Excel fundamentals course", "Reconsider after certification"]
         else:
             return ["Reject application", "Do not consider for Excel roles", "Focus on other candidates"]
+
